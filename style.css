@@ -373,6 +373,7 @@ header.sticky{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    object-fit: cover;
 }
 
 .layer{

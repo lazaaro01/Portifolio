@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    /* Estilos para tablets e celulares */
+    .navlist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-content {
+        display: grid;
+        grid-template-columns: 1fr; /* Alterando o layout para uma coluna */
+        gap: 20px;
+    }
+}

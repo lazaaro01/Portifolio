@@ -520,12 +520,15 @@ header.sticky{
 @media (max-width: 1480px){
     header{
         padding: 12px 2.5%;
-        transition: .1s;
+        transition: .3s ease;
     }
 
     header.sticky{
         padding: 10px 2.5%;
-        transition: .1s;
+        transition: .3s ease;
+        position: sticky;
+        top: 0;
+        z-index: 10;
     }
 
     section{
@@ -541,7 +544,7 @@ header.sticky{
         --big-font: 4rem;
         --h2-font: 2rem;
         --p-font: 0.9rem;
-        transition: .1s;
+        transition: .3s ease;
     }
 
     .home-text h3{
@@ -549,11 +552,11 @@ header.sticky{
     }
 
     .home{
-        height: 87vh;
+        height: auto;
     }
 
     .about-text h4{
-        font-size: var(--p-small-font)
+        font-size: var(--p-font)
     }
 }
 
@@ -578,6 +581,17 @@ header.sticky{
         display: block;
     }
 
+    .home-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .home {
+        height: 70vh;
+    }
+
+    .home-text {
+        padding: 0 10px;
+    }
     .navlist{
         position: absolute;
         top: -1000px;
